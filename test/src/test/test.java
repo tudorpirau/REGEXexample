@@ -34,7 +34,8 @@ public static void addMaxExp(String exp, Node<Expression> root) {
     	}
     } else {
     	try {
-			throw new Exception("Expresion has invalid data type arguments for given functions.");
+			throw new Exception("Expresion with type max funtion "
+					+ "has invalid data type arguments.");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -53,7 +54,8 @@ public static void addMinExp(String exp, Node<Expression> root) {
     	}
     } else {
     	try {
-			throw new Exception("Expresion has invalid data type arguments for given functions.");
+			throw new Exception("Expresion with type Min function "
+					+ "has invalid data type arguments.");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -72,7 +74,8 @@ public static void addOperation(String exp, Node<Expression> root) {
     	}
     } else {
     	try {
-			throw new Exception("Expresion has invalid data type arguments for given functions.");
+			throw new Exception("Expresion with type Operation * "
+					+ "has invalid data type arguments.");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
